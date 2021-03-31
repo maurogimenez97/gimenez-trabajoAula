@@ -17,5 +17,14 @@ namespace Forms
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e) // Procedimiento
+        {
+            label1.Text = "Cambiamos el Text";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
